@@ -12,8 +12,11 @@ font size: 34;
 font-family: 'Chakra Petch', sans-serif;
 }
 a {
-    color: black;
+    color: white;
     text-decoration: none;
+    background:#262626;
+    border:3px solid rebeccapurple;
+    border-radius: 5%;
 }
 
 ul {
@@ -30,8 +33,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    padding: 20px 0;   
-
+    padding: 20px 0;
 }
 .nav-brand {
     width: 200px;
@@ -55,8 +57,36 @@ ul {
 
 /*banner*/
 
+hr {
+    margin: 20px;S
+}
 .showbanner {
+    color: black;
+    font-size: 30px;
     width: 100%;
     height: 550px;
-    background-color:blueviolet;
+    background: url('./img/banner.jpg') no-repeat center center/cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.btn:hover {
+    opacity: .8;
 }
