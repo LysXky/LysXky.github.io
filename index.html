@@ -13,20 +13,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet"> 
     <!--CSS-->
-    <link rel="stylesheet" href="styles.css"
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <!--loader-->
+    <div id="cont_load">
+        <div id="loader"></div>
+    </div>
+    <!--Contenedor de todos las clases-->
+<div class="content">
+    <!--Contenedor del menu-->
 <div class="container">
     <nav class="nav-main">
         <img src="img/redblack.svg" alt="LysXky Logo" class="nav-brand">
         <ul class="nav-menu">
             <li>
                 <a href="#">BLOG</a>
-
             </li>
             <li>
-                <a href="#">ABOUT ME</a>
+                <a href="#">ABOUT</a>
             </li>   
             <li>
                 <a href="#">CONTACT</a>
@@ -41,18 +46,63 @@
         </ul>
     </nav>
 </div>
+    <!--Banner principal con la bienvenida-->
 <div class="showbanner">
     <header class="headerbanner">
         <h2>Welcome to LysXky Blog</h2>
         <p>A blog about cibersecurity, networking and technology.</p>
         <a href="#" class="btn">READ MORE <i class="bi bi-chevron-double-right"></i> </a>
     </header>
-    <!--entradas-->
-
-
 </div>
+    <!--Sidebar L-->
+    <aside class="sidebar">
+    <h3>Sidebar</h3>
+    </aside>
+    <!--entradas-->
+<div class="entrada1">
+    <div class="wi1">
+        <h3>entrada 1</h3>
+    </div>
+</div>
+<div class="entrada2">
+    <div class="wi2">
+        <h3>entrada 2</h3>
+    </div>
+</div>
+<div class="entrada3">
+    <div class="wi3">
+        <h3>entrada 3</h3>
+    </div>
+</div>
+<div class="entrada4">
+    <div class="wi4">
+        <h3>entrada 4</h3>
+    </div>
+</div>
+<div class="entrada5">
+    <div class="wi5">
+        <h3>entrada 5</h3>
+    </div>
+</div>
+<div class="entrada6">
+    <div class="wi6">
+        <h3>entrada 6</h3>
+    </div>
+</div>
+<footer class="footer">
+    <h3>footer</h3>
+</footer>
+
+</div><!--Termina el contenedor de contenedores-->
+<script>
+    window.onload = function() {
+        var contenedor = document.getElementById('cont_load');
+
+        contenedor.style.visibility = 'hidden';
+        contenedor.style.opacity = '0';
+    }
 
 
-
+</script>
 </body>
 </html>
