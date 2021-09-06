@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How configuring you Tokyo60"
+title:  "How configuring your Tokyo60"
 date:   2021-09-06 17:00 +0000
 tag: Keyboard
 ---
@@ -86,12 +86,12 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 ```
 
-when you have decided on your new keymap, you need comeback to **QMK MSYS** and execute this command **qmk compile -kb tokyokeyboard/tokyo60 -km mynewkeymap**, do you remember the folder what was created? well, in this folder **qmk_firmware** is your .hex file 
+when you have decided on your new keymap, you need comeback to **QMK MSYS** and execute this command **qmk compile -kb tokyokeyboard/tokyo60 -km mynewkeymap**, do you remember the folder what was created? well, in this folder **qmk_firmware** is your .hex file.
 
 Now finally you need open **QMK Toolbox** install all drivers and when It's all ready in **Local File** select you file .hex and you need reset you keyboard, in Tokyo60 you need unscrew the backplate and press the only botton in PCB, you need had the keyboad connected to you computer, When you do that in program say *"Atmel DFU device connected (libusb0): Atmel Corp. ATmega32U4"*, then you can flash and wait a few seconds. and all done.
 
 
 
 
-*if you had other keyboard you can use **qmk list-keyboards** and share you keyboard*
+*if you had other keyboard you can use **qmk list-keyboards** and share you keyboard.*
 
