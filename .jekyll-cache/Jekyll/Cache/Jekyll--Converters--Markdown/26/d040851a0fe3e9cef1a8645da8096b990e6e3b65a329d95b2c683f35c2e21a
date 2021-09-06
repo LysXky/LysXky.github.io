@@ -1,0 +1,6 @@
+I"1<p>Hi there, I want tell you how I configured my Tokyo60 Keyboard.</p>
+
+<p>First of all, you need download <a href="https://github.com/qmk/qmk_toolbox">QMK toolbox</a>, in github page of QMK you do click in <strong>Release</strong> in the tag <strong>Latest</strong> I used the 0.1.1 version, then in the page go to the part of your version, in windows download .exe file. The second program is <a href="https://msys.qmk.fm/">QMK MSYS</a> here you need download the latest version too, I used 1.5.1 version, download .exe file and install both.</p>
+
+<p>When you install both programs, you’ll have a new folder, <strong>qmk_firmware</strong>, now open <strong>QMK MSYS</strong>, then you need run the command <strong>qmk setup</strong>, then run <strong>qmk new-keymap -kb tokyokeyboard -km mynewkeymap</strong></p>
+:ET
